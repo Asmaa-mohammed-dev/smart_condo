@@ -1,4 +1,4 @@
-# ninja_store
+# smart_condo
 
 A new Flutter project.
 
