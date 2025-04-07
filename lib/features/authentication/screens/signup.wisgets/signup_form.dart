@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:ninja_store/features/authentication/screens/signup.wisgets/terms_conditions_checkbox.dart';
-import 'package:ninja_store/features/authentication/screens/signup.wisgets/verify_email.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
-import 'package:ninja_store/utils/constants/my_button.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/features/authentication/screens/signup.wisgets/terms_conditions_checkbox.dart';
+import 'package:smart_condo/features/authentication/screens/signup.wisgets/verify_email.dart';
+import 'package:smart_condo/utils/constants/my_button.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class NSignUpForm extends StatelessWidget {
   const NSignUpForm({super.key});
@@ -108,7 +107,7 @@ class NSignUpForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: MyButton(
-              colors: NColors.primary,
+              // colors: NColors.primary,
               title: NTexts.createAccount,
               onPressed: () => Get.to(() => const VerifyEmailScreen()),
             ),

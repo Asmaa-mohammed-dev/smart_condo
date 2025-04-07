@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/helpers/helper_functions.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/helpers/helper_functions.dart';
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({super.key, required this.image, required this.title});

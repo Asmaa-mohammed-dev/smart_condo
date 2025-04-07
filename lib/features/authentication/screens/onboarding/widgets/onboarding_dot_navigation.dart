@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/features/authentication/controllers/onboarding_controller.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/device/device_utility.dart';
+import 'package:smart_condo/features/authentication/controllers/onboarding_controller.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/device/device_utility.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingDotNavigation extends StatelessWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:ninja_store/common/styles/widgets.login_signup/form_divider.dart';
-import 'package:ninja_store/common/styles/widgets.login_signup/social_buttons.dart';
-import 'package:ninja_store/features/authentication/screens/signup.wisgets/signup_form.dart';
+import 'package:smart_condo/common/styles/widgets.login_signup/form_divider.dart';
+import 'package:smart_condo/common/styles/widgets.login_signup/social_buttons.dart';
+import 'package:smart_condo/features/authentication/screens/signup.wisgets/signup_form.dart';
 
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});

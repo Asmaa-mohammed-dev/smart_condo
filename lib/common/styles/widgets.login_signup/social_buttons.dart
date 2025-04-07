@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
-import 'package:ninja_store/utils/constants/image_strings.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
+import 'package:smart_condo/utils/constants/image_strings.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
 
 class NSocialButtons extends StatelessWidget {
   const NSocialButtons({super.key});

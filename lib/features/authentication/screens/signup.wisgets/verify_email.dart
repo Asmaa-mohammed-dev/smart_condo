@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ninja_store/features/authentication/screens/login/login.dart';
-import 'package:ninja_store/features/authentication/screens/login/widgets/success_screen/sucess_screen.dart';
-import 'package:ninja_store/features/authentication/screens/signup.wisgets/signup.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
-import 'package:ninja_store/utils/constants/image_strings.dart';
-import 'package:ninja_store/utils/constants/my_button.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/features/authentication/screens/login/login.dart';
+import 'package:smart_condo/features/authentication/screens/login/widgets/success_screen/sucess_screen.dart';
+import 'package:smart_condo/features/authentication/screens/signup.wisgets/signup.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
+import 'package:smart_condo/utils/constants/image_strings.dart';
+import 'package:smart_condo/utils/constants/my_button.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class VerifyEmailScreen extends StatelessWidget {
   const VerifyEmailScreen({super.key});

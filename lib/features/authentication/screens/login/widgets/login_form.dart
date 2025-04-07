@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:ninja_store/features/authentication/screens/password_configuration/forget_password.dart';
-import 'package:ninja_store/features/authentication/screens/signup.wisgets/signup.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
-import 'package:ninja_store/utils/constants/my_button.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/features/authentication/screens/password_configuration/forget_password.dart';
+import 'package:smart_condo/features/authentication/screens/signup.wisgets/signup.dart';
+import 'package:smart_condo/navigation_menu.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
+import 'package:smart_condo/utils/constants/my_button.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class NLoginForm extends StatelessWidget {
   const NLoginForm({super.key});
@@ -69,7 +70,7 @@ class NLoginForm extends StatelessWidget {
             MyButton(
               colors: NColors.primary,
               title: NTexts.signIn,
-              onPressed: () {},
+              onPressed: () => Get.offAll(() => NavigationMenu()),
             ),
             SizedBox(height: NSizes.spaceBtwSections),
             SizedBox(

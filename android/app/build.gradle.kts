@@ -6,7 +6,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ninja_store"
+    namespace = "com.example.smart_condo"
+
     compileSdk = flutter.compileSdkVersion
  
     ndkVersion = "27.0.12077973"

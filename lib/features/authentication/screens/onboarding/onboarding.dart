@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ninja_store/features/authentication/controllers/onboarding_controller.dart';
-import 'package:ninja_store/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:ninja_store/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
-import 'package:ninja_store/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
-import 'package:ninja_store/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
-import 'package:ninja_store/utils/constants/image_strings.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/features/authentication/controllers/onboarding_controller.dart';
+import 'package:smart_condo/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:smart_condo/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:smart_condo/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:smart_condo/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
+import 'package:smart_condo/utils/constants/image_strings.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});

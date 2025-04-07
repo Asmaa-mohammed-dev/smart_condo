@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
-import 'package:ninja_store/utils/constants/image_strings.dart';
-import 'package:ninja_store/utils/constants/my_button.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
+import 'package:smart_condo/utils/constants/image_strings.dart';
+import 'package:smart_condo/utils/constants/my_button.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class ResetPassword extends StatelessWidget {
   const ResetPassword({super.key});

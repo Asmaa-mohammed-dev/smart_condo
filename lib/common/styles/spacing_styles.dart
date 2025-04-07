@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
 
 class NSpacingStyle {
   static const EdgeInsetsGeometry paddingAppBarHeight = EdgeInsets.only(

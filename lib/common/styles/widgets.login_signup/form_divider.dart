@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
 
 class NFormDivider extends StatelessWidget {
   const NFormDivider({super.key, required this.dividerText});

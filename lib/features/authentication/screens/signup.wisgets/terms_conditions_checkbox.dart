@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/utils/constants/colors.dart';
-import 'package:ninja_store/utils/constants/sizes.dart';
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class NTermsAndConditionCheckbox extends StatelessWidget {
   const NTermsAndConditionCheckbox({super.key});

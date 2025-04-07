@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:ninja_store/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:ninja_store/utils/theme/theme.dart';
+import 'package:smart_condo/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:smart_condo/utils/theme/theme.dart';
 
 //To do : Add widgets bindings
 //To do : Init Local Storage

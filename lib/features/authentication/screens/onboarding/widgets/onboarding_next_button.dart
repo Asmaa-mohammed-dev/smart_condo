@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:ninja_store/features/authentication/controllers/onboarding_controller.dart';
-import 'package:ninja_store/utils/device/device_utility.dart';
+import 'package:smart_condo/features/authentication/controllers/onboarding_controller.dart';
+import 'package:smart_condo/utils/device/device_utility.dart';
 
 class onBoardingNextButton extends StatelessWidget {
   const onBoardingNextButton({super.key});

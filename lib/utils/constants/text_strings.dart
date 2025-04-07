@@ -1,8 +1,8 @@
 class NTexts {
-  static const String onBoardingTitle1 = "أختر منتجك \nمنتجك الرائع في انتظارك";
-  static const String onBoardingTitle2 = " ";
+  static const String onBoardingTitle1 = "تعرف على رفاقك في المبنى";
+  static const String onBoardingTitle2 = "أخبرنا عن المشاكل التي تواجهك";
 
-  static const String onBoardingTitle3 = " سيتم التوصيل حتى \n حتى باب بيتك";
+  static const String onBoardingTitle3 = "سيتم التوصل إلى حلول لحياة \n أفضل";
 
   //Authentication Form Text
   static const String firstName = "الاسم الأول";
@@ -25,7 +25,7 @@ class NTexts {
   static const String isAgreeTo = "أنا أوافق على ";
   static const String and = "و";
   static const String done = "تمام";
-  static const String loginSubTitle = " أكمل بياناتك الشخصية";
+  static const String loginSubTitle = "أهلًا بك، أستكشف خيارات لا محدودة";
 
   static const String submit = "تأكيد";
 
@@ -37,8 +37,8 @@ class NTexts {
   static const String resendEmail = "إعادة إرسال  ";
 
   //Authentication Heading Text
-  static const String homeAppbarTitle = "يوم جيد للتسوق";
-  static const String homeAppbarSubTitle = "نينجا";
+  static const String homeAppbarTitle = "أهلا أحمد";
+  static const String homeAppbarSubTitle = "Smart Condo";
   static const String loginTitle = "أهلًا بك،";
   // static const String loginSubTitle = "أستكشف خيارات لا محدودة";
   static const String signUpTitle = "هيا لننشيء حسابك";

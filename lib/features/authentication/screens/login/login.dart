@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:ninja_store/common/styles/spacing_styles.dart';
-import 'package:ninja_store/common/styles/widgets.login_signup/form_divider.dart';
-import 'package:ninja_store/common/styles/widgets.login_signup/social_buttons.dart';
-import 'package:ninja_store/features/authentication/screens/login/widgets/login_form.dart';
-import 'package:ninja_store/features/authentication/screens/login/widgets/login_header.dart';
+import 'package:smart_condo/common/styles/spacing_styles.dart';
+import 'package:smart_condo/common/styles/widgets.login_signup/form_divider.dart';
+import 'package:smart_condo/common/styles/widgets.login_signup/social_buttons.dart';
+import 'package:smart_condo/features/authentication/screens/login/widgets/login_form.dart';
+import 'package:smart_condo/features/authentication/screens/login/widgets/login_header.dart';
 
-import 'package:ninja_store/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/constants/sizes.dart';
 
-import 'package:ninja_store/utils/constants/text_strings.dart';
+import 'package:smart_condo/utils/constants/text_strings.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
