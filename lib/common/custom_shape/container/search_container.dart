@@ -3,6 +3,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:smart_condo/utils/constants/colors.dart';
 import 'package:smart_condo/utils/constants/sizes.dart';
 import 'package:smart_condo/utils/device/device_utility.dart';
+import 'package:smart_condo/utils/helpers/helper_functions.dart';
 
 class NSearchContainer extends StatelessWidget {
   const NSearchContainer({
@@ -23,6 +24,8 @@ class NSearchContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dark = NHelperFunctions.isDarkMode(context);
+
     return GestureDetector(
       onTap: onTap,
       child: Padding(
@@ -31,7 +34,11 @@ class NSearchContainer extends StatelessWidget {
           width: NDeviceUtils.getScreenWidth(context),
           padding: const EdgeInsets.all(NSizes.md),
           decoration: BoxDecoration(
-            color: showBackground ? NColors.white : Colors.transparent,
+            color: showBackground
+                ? dark
+                    ? NColors.dark
+                    : NColors.white
+                : Colors.transparent,
             borderRadius: BorderRadius.circular(NSizes.cardRadiuslg),
             border: showBorder ? Border.all(color: NColors.grey) : null,
           ),

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731330423355",
+    "project_id": "smart-condo-c134b",
+    "storage_bucket": "smart-condo-c134b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731330423355:android:e5aca0a2a3061e7e05ca1e",
+        "android_client_info": {
+          "package_name": "com.example.smart_condo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG0mXLrV-VJOXK_oEif9qFpH_PqlFPLYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
