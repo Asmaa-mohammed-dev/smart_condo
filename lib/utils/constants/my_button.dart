@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class MyButton extends StatelessWidget {
   const MyButton({
     super.key,
-
     this.colors = const Color(0xFF8C52FF),
     required this.title,
     required this.onPressed,
@@ -25,7 +24,6 @@ class MyButton extends StatelessWidget {
           onPressed: onPressed,
           minWidth: 410,
           height: 65,
-
           child: Text(
             title,
             textAlign: TextAlign.center,

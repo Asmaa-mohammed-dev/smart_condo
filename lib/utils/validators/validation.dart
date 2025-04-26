@@ -1,41 +1,50 @@
 class TValidator {
+  ///Empty Text Validation
+
+  static String? validateEmptyText(String? fieldName, String? value) {
+    if (value == null || value.isEmpty) {
+      return '$fieldName برجاء ادخال';
+    }
+    return null;
+  }
+
   static String? validateEmail(String? value) {
     if (value == null || value.isEmpty) {
-      return 'Email is required';
+      return 'الرجاء إدخال عنوان البريد الإلكتروني';
     }
     // Regular expression for email validation
     final emailRegExp = RegExp(r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$');
     if (!emailRegExp.hasMatch(value)) {
-      return 'Invalid email address';
+      return 'عنوان البريد الالكتروني غير صالح';
     }
     return null;
   }
 
   static String? validatePassword(String? value) {
     if (value == null || value.isEmpty) {
-      return 'Password is required';
+      return 'الرجاء إدخال كلمة المرور';
     }
     if (value.length < 6) {
-      return 'Password must be at least 6 characters';
+      return 'الرجاء إدخال كلمة المرور بطول 6 أحرف على الأقل';
     }
     if (!value.contains(RegExp(r'[A-Z]'))) {
-      return 'Password must contain at least one uppercase letter';
+      return 'الرجاء إدخال حرف كبير واحد على الأقل';
     }
     if (!value.contains(RegExp(r'[0-9]'))) {
-      return 'Password must contain at least one digit';
+      return 'الرجاء إدخال رقم واحد على الأقل';
     }
     if (!value.contains(RegExp(r'[!@#$%^&*(),.?":{}|<>]'))) {
-      return 'Password must contain at least one special character';
+      return 'الرجاء إدخال رمز خاص واحد على الأقل';
     }
     return null;
   }
 
   static String? validatePhoneNumber(String? value) {
     if (value == null || value.isEmpty) {
-      return 'Phone Number is required';
+      return 'الرجاء إدخال رقم الهاتف';
     }
     if (value.length < 3) {
-      return 'Name must be at least 3 characters';
+      return 'رقم الهاتف يجب أن يكون على الأقل 3 أحرف';
     }
     return null;
   }

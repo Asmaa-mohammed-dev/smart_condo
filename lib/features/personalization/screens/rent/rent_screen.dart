@@ -5,6 +5,7 @@ import 'package:smart_condo/common/texts/section_heading.dart';
 import 'package:smart_condo/utils/constants/colors.dart';
 import 'package:smart_condo/utils/constants/image_strings.dart';
 import 'package:smart_condo/utils/constants/sizes.dart';
+import 'package:smart_condo/utils/helpers/helper_functions.dart';
 
 class RentScreen extends StatelessWidget {
   const RentScreen({super.key});
@@ -12,6 +13,8 @@ class RentScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // backgroundColor:
+      //     NHelperFunctions.isDarkMode(context) ? NColors.dark : NColors.white,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -26,6 +29,9 @@ class RentScreen extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       fontFamily: 'MAJALLA',
                       fontSize: 27,
+                      color: NHelperFunctions.isDarkMode(context)
+                          ? NColors.white
+                          : NColors.black,
                     ),
                   ),
                   showBackArrow: true,
@@ -50,7 +56,9 @@ class RentScreen extends StatelessWidget {
                         children: [
                           ImageIcon(
                             AssetImage(
-                              NImages.money1,
+                              NHelperFunctions.isDarkMode(context)
+                                  ? NImages.money1
+                                  : NImages.money2,
                             ), // استخدام صورة من الأصول
                             size: 24, // حجم الأيقونة
                           ),
@@ -112,7 +120,6 @@ class RentScreen extends StatelessWidget {
                                         ),
                                         Align(
                                           alignment: Alignment.center,
-
                                           child: Text(
                                             '1000 ريال سعودي',
                                             textAlign: TextAlign.center,
@@ -126,7 +133,6 @@ class RentScreen extends StatelessWidget {
                                         ),
                                         Align(
                                           alignment: Alignment.centerLeft,
-
                                           child: Text(
                                             "موعد سداد الإيجار : 10/4/2025م",
                                             textAlign: TextAlign.left,
@@ -157,7 +163,9 @@ class RentScreen extends StatelessWidget {
                         children: [
                           ImageIcon(
                             AssetImage(
-                              NImages.activity1,
+                              NHelperFunctions.isDarkMode(context)
+                                  ? NImages.activity1
+                                  : NImages.activity2,
                             ), // استخدام صورة من الأصول
                             size: 24, // حجم الأيقونة
                           ),
@@ -169,7 +177,9 @@ class RentScreen extends StatelessWidget {
                           NsectionHeading(
                             title: 'الأنشطة',
                             onPressed: () {},
-                            textColor: NColors.black,
+                            textColor: NHelperFunctions.isDarkMode(context)
+                                ? NColors.white
+                                : NColors.black,
                             showActionButton: false,
                           ),
                         ],
@@ -223,13 +233,11 @@ class RentScreen extends StatelessWidget {
                   NRoundedContainer(
                     backgroundColor: Colors.transparent,
                     height: 150,
-
                     child: Center(
                       child: Image.asset(
                         NImages.house,
-                        fit:
-                            BoxFit
-                                .contain, // أو BoxFit.cover لو حابة تملأ المساحة
+                        fit: BoxFit
+                            .contain, // أو BoxFit.cover لو حابة تملأ المساحة
                         height: 150,
                       ),
                     ),

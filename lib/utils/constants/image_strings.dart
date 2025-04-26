@@ -1,7 +1,7 @@
 class NImages {
   // --App Logos
   static const String lightAppLogo = 'assets/logos/12.png';
-  static const String appLogo = 'assets/logos/168.PNG';
+  static const String appLogo = 'assets/logos/1681.png';
 
   // --Social Logos
   static const String google = 'assets/images/google.png';

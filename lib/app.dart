@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:smart_condo/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:smart_condo/bindings/general_bindings.dart';
+import 'package:smart_condo/utils/constants/colors.dart';
 import 'package:smart_condo/utils/theme/theme.dart';
 
 //To do : Add widgets bindings
@@ -20,8 +21,13 @@ class App extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         themeMode: ThemeMode.system,
         theme: NAppTheme.lightTheme,
-        home: const OnBoardingScreen(),
-        //  textDirection: TextDirection.rtl,
+        darkTheme: NAppTheme.darkTheme,
+        // home: const OnBoardingScreen(),
+        initialBinding: GeneralBindings(),
+        home: const Scaffold(
+          backgroundColor: NColors.primary,
+          body: Center(child: CircularProgressIndicator(color: Colors.white)),
+        ),
       ),
     );
   }

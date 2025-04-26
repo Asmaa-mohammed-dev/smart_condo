@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:smart_condo/features/personalization/screens/chats/chat_screen.dart';
+import 'package:smart_condo/features/authentication/screens/favorite/favorite_screen.dart';
+import 'package:smart_condo/features/personalization/screens/chats/contacts_screen.dart';
 import 'package:smart_condo/features/personalization/screens/home/home_screen.dart';
 import 'package:smart_condo/features/personalization/screens/rent/rent_screen.dart';
 import 'package:smart_condo/features/personalization/screens/settings/settings_screen.dart';
-import 'package:smart_condo/utils/constants/colors.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -21,14 +21,13 @@ class NavigationMenu extends StatelessWidget {
             height: 80,
             elevation: 0,
             selectedIndex: controller.selectedIndex.value,
-            onDestinationSelected:
-                (index) => controller.selectedIndex.value = index,
+            onDestinationSelected: (index) =>
+                controller.selectedIndex.value = index,
             destinations: const [
               NavigationDestination(
                 icon: Icon(Iconsax.home),
                 label: 'الرئيسية',
               ),
-
               NavigationDestination(
                 icon: Icon(Iconsax.money_2),
                 label: 'الإيجار',
@@ -56,8 +55,8 @@ class NavigationController extends GetxController {
   final screens = [
     const HomeScreen(),
     const RentScreen(),
-    Container(color: NColors.primary),
-    const ChatScreen(),
+    const FavoriteScreen(),
+    ContactsScreen(),
     const SettingsScreen(),
   ];
 }
